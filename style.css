@@ -1,0 +1,228 @@
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+
+    width: 90%;
+    
+    margin: auto;
+    }
+.global-btn{
+margin: 0px 7px;
+
+background-color: #00fff0;
+
+padding: 7px 0px;
+
+width: 25%;
+
+border-radius: 6px;
+}
+
+.global-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 4px #8efff7;
+    transition: ease-in-out.5s;
+}
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+/* Header */
+
+.Top-Header{
+
+float: left;
+
+background: #223047;
+
+width: 100%;
+}
+
+/* Main Header Part */
+
+.Main-Header{
+
+width: 100%;
+
+float: left;
+
+border-bottom: 1px solid #4e596c;
+}
+
+
+
+.logo-part{
+
+width: 33.33%;
+
+float: left;
+
+text-align: center;
+
+margin: 10px opx;
+
+margin: 16px 0px;
+}
+
+.logo{
+
+}
+
+.menu-part{
+
+width: 33.33%;
+
+float: left;
+}
+
+.menu-part nav{
+
+margin: 15px 0px;
+}
+
+.menu-part nav ul{
+
+text-align: center;
+}
+
+.menu-part nav ul li{
+
+list-style: none;
+
+display: inline-block;
+
+margin: 0px 15px;
+}
+
+.menu-part nav ul li a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+font-weight: 600;
+}
+
+.btn-part{
+
+width: 33.33%;
+
+float: left;
+
+text-align: center;
+
+margin: 15px 0px;
+}
+
+
+.btn-part i{
+    
+color: white;
+    
+font-size: 20px;
+}
+
+/* hero part */
+
+.hero-section{
+
+width: 100%;
+}
+
+.hero-writting-part{
+
+width: 50%;
+
+float: left;
+
+text-align: left;
+
+margin: 102px;
+
+color: white;
+
+/* position: relative; */
+
+/* left: 168px; */
+
+padding: 200px 100px 100px;
+}
+
+.hero-img-part{
+
+position: \;
+
+position: fixed;
+
+position: relative;
+
+top: 100px;
+
+left: -25px;
+}
+
+.btn2{background-color: #223047;border: -32px;color: white;border-radius: 6px;width: 23%;margin: 0px 7px;padding: 7px 0px;}
+
+/* app section */
+
+.service{
+
+padding: 75px 0px;
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+}
+.service-main{
+
+width: 100%;
+
+float: left;
+margin-bottom: 100px;
+}
+.service-main h2{
+
+margin-bottom: 50px;
+
+font-size: 25pt;
+}
+.underline{display: block;border-bottom: 4px solid #00fff0;width: 5%;margin: 20px auto;}
+.service-feature{
+
+width: 100%;
+
+float: left;
+}
+.service-feature-box{
+
+width: 23%;
+
+float: left;
+
+margin: 0 1%;
+
+padding: 10px;
+
+/* border: 1px solid; */
+
+box-shadow: 0 0 5px #666666;
+}
+.service-feature-box img{
+
+}
+.service-feature-box img h2{
+
+}
+.service-feature-box img h2 p{
+    
+}
